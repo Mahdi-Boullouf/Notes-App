@@ -7,7 +7,11 @@ class AppRouter extends $AppRouter{
   @override
   // TODO: implement routes
   List<AutoRoute> get routes => [
-    AutoRoute(page: HomeRoute.page,initial: true)
+    AutoRoute(page: HomeRoute.page,initial: true),
+    AutoRoute(page: AddNotixRoute.page,),
+    AutoRoute(page: NoteRoute.page,)
+
+
   ];
 
 }

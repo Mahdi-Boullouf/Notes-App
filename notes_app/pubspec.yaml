@@ -3,7 +3,6 @@ description: "A new Flutter project."
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-
 version: 1.0.0+1
 
 environment:
@@ -20,6 +19,8 @@ dependencies:
   flutter_i18n: ^0.35.1
   flutter_screenutil: ^5.9.0
   hive: ^2.2.3
+  hive_generator: ^2.0.1
+  intl: 0.18.1
 
 dev_dependencies:
   flutter_lints: ^3.0.0
@@ -27,7 +28,6 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-
 
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
@@ -53,8 +53,5 @@ flutter:
           weight: 500
         - asset: assets/fonts/sofia_pro/SofiaPro-Bold.otf
           weight: 700
-
-
-  #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
